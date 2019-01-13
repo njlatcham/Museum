@@ -1,0 +1,304 @@
+.header {
+  border-bottom: 1px solid #f0e9f9;
+  width: 100%;
+}
+.header .header-title {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.header .header-title img {
+  width: 100%;
+}
+.header .header-title h1 {
+  color: #000;
+  font-size: 4rem;
+  position: absolute;
+  top: 35%;
+  left: 17.5%;
+}
+.header .header-nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.header .header-nav ul li {
+  font-family: 'archivo', sans-serif;
+  font-size: 1.4rem;
+  padding: 10px 10px 10px 0;
+}
+.admission {
+  border-bottom: 1px solid #f0e9f9;
+  display: flex;
+  padding: 30px 0;
+}
+.admission .admission-title {
+  font-size: 2rem;
+  flex: 1;
+}
+.admission .admission-title h3 {
+  margin: 0;
+}
+.admission .admission-info {
+  flex: 1;
+}
+.admission .admission-info h4 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+.admission .admission-info p {
+  color: #a6a6a6;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.4rem;
+}
+.admission .admission-info ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+.admission .admission-info ul li {
+  border-bottom: 1px solid #f0e9f9;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+.admission .admission-info .admission-info_p {
+  margin: 30px 0;
+}
+.admission .admission-info .admission-bttns .admission-bttn {
+  cursor: pointer;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 4% 5%;
+}
+.admission .admission-info .admission-bttns .admission-bttn:focus {
+  outline: 0;
+}
+.admission .admission-info .admission-bttns .black {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  margin-right: 10px;
+}
+.admission .admission-info .admission-bttns .white {
+  border: 1px solid #f0e9f9;
+}
+.directions {
+  border-bottom: 1px solid #f0e9f9;
+  display: flex;
+  padding: 30px 0;
+}
+.directions .directions-title {
+  flex: 1;
+  font-size: 2rem;
+}
+.directions .directions-title h3 {
+  margin: 0;
+}
+.directions .directions-info {
+  flex: 1;
+}
+.directions .directions-info p {
+  color: #000;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.directions .directions-info .directions-info_types .dropdown h3 {
+  border: 1px solid #f0e9f9;
+  font-family: 'archivo', sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 10px 20px;
+}
+.directions .directions-info .directions-info_types .dropdown #dropdown-active {
+  color: #000;
+  display: block;
+  border-left: 1px solid #f0e9f9;
+  border-right: 1px solid #f0e9f9;
+  padding: 10px 20px;
+}
+.directions .directions-info .directions-info_types .dropdown .dropdown-info {
+  display: none;
+}
+.accessibility {
+  border-bottom: 1px solid #f0e9f9;
+  display: flex;
+  padding: 30px 0;
+}
+.accessibility .accessibility-title {
+  flex: 1;
+  font-size: 2rem;
+}
+.accessibility .accessibility-title h3 {
+  margin: 0;
+}
+.accessibility .accessibility-info {
+  flex: 1;
+}
+.accessibility .accessibility-info ul {
+  padding: 0 15px;
+}
+.accessibility .accessibility-info ul li {
+  font-size: 1.4rem;
+  font-family: 'Archivo', sans-serif;
+  padding: 5px 0;
+}
+.accessibility .accessibility-info p {
+  font-size: 1.4rem;
+  font-family: 'Archivo', sans-serif;
+}
+.tours {
+  border-bottom: 1px solid #f0e9f9;
+  display: flex;
+  padding: 30px 0;
+}
+.tours .tours-title {
+  flex: 1;
+  font-size: 2rem;
+}
+.tours .tours-title h3 {
+  margin: 0;
+}
+.tours .tours-info {
+  flex: 1;
+}
+.tours .tours-info p {
+  color: #000;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.tours .tours-info .tours-info_types .dropdown h3 {
+  border: 1px solid #f0e9f9;
+  font-family: 'archivo', sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 10px 20px;
+}
+.tours .tours-info .tours-info_types .dropdown #dropdown-active {
+  color: #000;
+  display: block;
+  border-left: 1px solid #f0e9f9;
+  border-right: 1px solid #f0e9f9;
+  padding: 10px 20px;
+}
+.tours .tours-info .tours-info_types .dropdown .dropdown-info {
+  display: none;
+}
+.amenities {
+  border-bottom: 1px solid #f0e9f9;
+  display: flex;
+  padding: 30px 0;
+}
+.amenities .amenities-title {
+  flex: 1;
+  font-size: 2rem;
+}
+.amenities .amenities-title h3 {
+  margin: 0;
+}
+.amenities .amenities-info {
+  flex: 1;
+}
+.amenities .amenities-info p {
+  color: #000;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.amenities .amenities-info .amenities-info_types {
+  position: relative;
+}
+.amenities .amenities-info .amenities-info_types img {
+  padding-bottom: 20px;
+  width: 100%;
+}
+.amenities .amenities-info .amenities-info_types .cafe {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  color: #fff;
+  bottom: 55%;
+  left: 35%;
+}
+.amenities .amenities-info .amenities-info_types .shop {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  color: #fff;
+  bottom: 5%;
+  left: 35%;
+}
+@media (max-width: 950px) {
+  .admission {
+    border-bottom: 1px solid #f0e9f9;
+    display: flex;
+    padding: 30px 0;
+  }
+  .admission .admission-title {
+    font-size: 2rem;
+    flex: 1;
+  }
+  .admission .admission-title h3 {
+    margin: 0;
+  }
+  .admission .admission-info {
+    flex: 1;
+  }
+  .admission .admission-info h4 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .admission .admission-info p {
+    color: #a6a6a6;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.4rem;
+  }
+  .admission .admission-info ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+  .admission .admission-info ul li {
+    border-bottom: 1px solid #f0e9f9;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.4rem;
+    padding: 10px 0;
+  }
+  .admission .admission-info .admission-info_p {
+    margin: 30px 0;
+  }
+  .admission .admission-info .admission-bttns {
+    display: flex;
+    flex-direction: column;
+  }
+  .admission .admission-info .admission-bttns .admission-bttn {
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 4% 5%;
+  }
+  .admission .admission-info .admission-bttns .admission-bttn:focus {
+    outline: 0;
+  }
+  .admission .admission-info .admission-bttns .black {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .admission .admission-info .admission-bttns .white {
+    border: 1px solid #f0e9f9;
+  }
+}

@@ -1,0 +1,387 @@
+.header {
+    border-bottom: 1px solid #f0e9f9
+    width: 100%
+    
+    .header-title {
+        height: 150px
+        overflow: hidden
+        position: relative
+        
+        img {
+            width: 100%
+        }
+        
+        h1 {
+            color: #000
+            font-size: 4rem
+            position: absolute
+            top: 35%
+            left: 17.5%
+        }
+    }
+    
+    .header-nav {
+        
+         ul {
+            display: flex
+            list-style-type: none
+            padding: 0
+            
+            li {
+                font-family: 'archivo', sans-serif
+                font-size: 1.4rem
+                padding: 10px 10px 10px 0
+            }
+         }
+    }
+}
+
+.admission {
+    border-bottom: 1px solid #f0e9f9
+    display: flex
+    padding: 30px 0
+    
+    .admission-title {
+        font-size: 2rem
+        flex: 1
+        
+        h3 {
+            margin: 0
+        }
+    }
+    
+    .admission-info {
+        flex: 1
+        
+        h4 {
+            font-family: 'Archivo', sans-serif
+            font-size: 1.8rem
+            margin: 0
+        }
+        
+        p {
+            color: #a6a6a6
+            font-family: 'Archivo', sans-serif
+            font-size: 1.4rem
+        }
+        
+        ul {
+            display: flex
+            flex-direction: column
+            list-style-type: none
+            padding: 0
+            
+            li {
+                border-bottom: 1px solid #f0e9f9
+                font-family: 'Archivo', sans-serif
+                font-size: 1.4rem
+                padding: 10px 0
+            }
+        }
+        
+        .admission-info_p {
+            margin: 30px 0
+        }
+        
+        .admission-bttns {
+        
+            .admission-bttn {
+                cursor: pointer
+                font-family: 'Archivo', sans-serif
+                font-size: 1.2rem
+                text-transform: uppercase
+                padding: 4% 5%
+                            
+                &:focus {
+                    outline: 0
+                }
+            }
+            
+            .black {
+                border: none
+                background-color: #000
+                color: #fff
+                margin-right: 10px
+            }
+            
+            .white {
+                border: 1px solid #f0e9f9
+            }
+        }
+    }
+}
+
+.directions {
+    border-bottom: 1px solid #f0e9f9
+    display: flex
+    padding: 30px 0
+    
+    .directions-title {
+        flex: 1
+        font-size: 2rem
+        
+        h3 {
+            margin: 0
+        }
+    }
+    
+    .directions-info {
+        flex: 1
+        
+        p {
+            color: #000
+            font-family: 'Archivo', sans-serif
+            font-size: 1.4rem
+            margin: 0
+            padding-bottom: 30px
+        }
+        
+        .directions-info_types {
+            
+            .dropdown {
+
+                h3 {
+                    border: 1px solid #f0e9f9
+                    font-family: 'archivo', sans-serif
+                    font-size: 1.6rem
+                    margin: 0
+                    padding: 10px 20px
+                }
+                
+                #dropdown-active {
+                    color: #000
+                    display: block
+                    border-left: 1px solid #f0e9f9
+                    border-right: 1px solid #f0e9f9
+                    padding: 10px 20px
+                }
+                
+                .dropdown-info {
+                    display: none
+                }
+            }
+        }
+    }
+}
+
+.accessibility {
+    border-bottom: 1px solid #f0e9f9
+    display: flex
+    padding: 30px 0
+    
+    .accessibility-title {
+        flex: 1
+        font-size: 2rem
+        
+        h3 {
+            margin: 0
+        }
+    }
+    
+    .accessibility-info {
+        flex: 1
+        
+        ul {
+            padding: 0 15px
+            
+            li {
+                font-size: 1.4rem
+                font-family: 'Archivo', sans-serif
+                padding: 5px 0
+            }
+        }
+        
+        p {
+            font-size: 1.4rem
+            font-family: 'Archivo', sans-serif
+        }
+    }
+}
+
+.tours {
+    border-bottom: 1px solid #f0e9f9
+    display: flex
+    padding: 30px 0
+    
+    .tours-title {
+        flex: 1
+        font-size: 2rem
+        
+        h3 {
+            margin: 0
+        }
+    }
+    
+    .tours-info {
+        flex: 1
+        
+        p {
+            color: #000
+            font-family: 'Archivo', sans-serif
+            font-size: 1.4rem
+            margin: 0
+            padding-bottom: 30px
+        }
+        
+        .tours-info_types {
+
+            .dropdown {
+
+                h3 {
+                    border: 1px solid #f0e9f9
+                    font-family: 'archivo', sans-serif
+                    font-size: 1.6rem
+                    margin: 0
+                    padding: 10px 20px
+                }
+                
+                #dropdown-active {
+                    color: #000
+                    display: block
+                    border-left: 1px solid #f0e9f9
+                    border-right: 1px solid #f0e9f9
+                    padding: 10px 20px
+                }
+                
+                .dropdown-info {
+                    display: none
+                }
+            }
+        }
+    }
+}
+
+.amenities {
+    border-bottom: 1px solid #f0e9f9
+    display: flex
+    padding: 30px 0
+    
+    .amenities-title {
+        flex: 1
+        font-size: 2rem
+        
+        h3 {
+            margin: 0
+        }
+    }
+    
+    .amenities-info {
+        flex: 1
+        
+        p {
+            color: #000
+            font-family: 'Archivo', sans-serif
+            font-size: 1.4rem
+            margin: 0
+            padding-bottom: 30px
+        }
+        
+        .amenities-info_types {
+            position: relative
+
+            img {
+                padding-bottom: 20px
+                width: 100%
+            }
+            
+            .cafe {
+                font-family: 'Archivo', sans-serif
+                font-size: 2rem
+                position: absolute
+                color: #fff
+                bottom: 55%
+                left: 35%
+            }
+            
+            .shop {
+                font-family: 'Archivo', sans-serif
+                font-size: 2rem
+                position: absolute
+                color: #fff
+                bottom: 5%
+                left: 35%
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    
+    .admission {
+        border-bottom: 1px solid #f0e9f9
+        display: flex
+        padding: 30px 0
+        
+        .admission-title {
+            font-size: 2rem
+            flex: 1
+            
+            h3 {
+                margin: 0
+            }
+        }
+        
+        .admission-info {
+            flex: 1
+            
+            h4 {
+                font-family: 'Archivo', sans-serif
+                font-size: 1.8rem
+                margin: 0
+            }
+            
+            p {
+                color: #a6a6a6
+                font-family: 'Archivo', sans-serif
+                font-size: 1.4rem
+            }
+            
+            ul {
+                display: flex
+                flex-direction: column
+                list-style-type: none
+                padding: 0
+                
+                li {
+                    border-bottom: 1px solid #f0e9f9
+                    font-family: 'Archivo', sans-serif
+                    font-size: 1.4rem
+                    padding: 10px 0
+                }
+            }
+            
+            .admission-info_p {
+                margin: 30px 0
+            }
+            
+            .admission-bttns {
+                display: flex
+                flex-direction: column
+            
+                .admission-bttn {
+                    cursor: pointer
+                    font-family: 'Archivo', sans-serif
+                    font-size: 1.2rem
+                    text-transform: uppercase
+                    padding: 4% 5%
+                                
+                    &:focus {
+                        outline: 0
+                    }
+                }
+                
+                .black {
+                    border: none
+                    background-color: #000
+                    color: #fff
+                    margin-right: 0
+                    margin-bottom: 20px
+                }
+                
+                .white {
+                    border: 1px solid #f0e9f9
+                }
+            }
+        }
+    }
+}
