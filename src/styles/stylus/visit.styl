@@ -1,38 +1,47 @@
 .header {
-    border-bottom: 1px solid #f0e9f9
+    padding-top: 64px
     width: 100%
-    
-    .header-title {
-        height: 150px
-        overflow: hidden
-        position: relative
+    height: 200px
+    overflow: hidden
+    position: relative
         
-        img {
-            width: 100%
-        }
-        
-        h1 {
-            color: #000
-            font-size: 4rem
-            position: absolute
-            top: 35%
-            left: 17.5%
-        }
+    img {
+        width: 100%
     }
     
-    .header-nav {
+    h1 {
+        color: #000
+        font-size: 4rem
+        position: absolute
+        top: 55%
+        left: 17.5%
+    }
+}
+
+.header-nav {
+    background-color: #fff
+    width: 100%
+
+    ul {
+        display: flex
+        list-style-type: none
+        padding: 0
         
-         ul {
-            display: flex
-            list-style-type: none
-            padding: 0
+        li {
+            font-family: 'archivo', sans-serif
+            font-size: 1.4rem
+            padding: 20px 10px 20px 0
+            border-bottom: 1px solid #f0e9f9
             
-            li {
-                font-family: 'archivo', sans-serif
-                font-size: 1.4rem
-                padding: 10px 10px 10px 0
+            &:hover {
+                border-bottom: 1px solid #a6a6a6
             }
-         }
+            
+            a {
+                color: #a6a6a6
+                text-decoration: none
+            }
+        }
     }
 }
 
@@ -146,18 +155,22 @@
                     font-size: 1.6rem
                     margin: 0
                     padding: 10px 20px
+                    
+                    .fa-arrow-down {
+                        float: right
+                    }
                 }
                 
-                #dropdown-active {
+                .dropdown-info {
+                    display: none
+                }
+                
+                .open {
                     color: #000
                     display: block
                     border-left: 1px solid #f0e9f9
                     border-right: 1px solid #f0e9f9
                     padding: 10px 20px
-                }
-                
-                .dropdown-info {
-                    display: none
                 }
             }
         }
@@ -233,18 +246,22 @@
                     font-size: 1.6rem
                     margin: 0
                     padding: 10px 20px
+                    
+                    .fa-arrow-down {
+                        float: right
+                    }
                 }
                 
-                #dropdown-active {
+                .dropdown-info {
+                    display: none
+                }
+                
+                .open {
                     color: #000
                     display: block
                     border-left: 1px solid #f0e9f9
                     border-right: 1px solid #f0e9f9
                     padding: 10px 20px
-                }
-                
-                .dropdown-info {
-                    display: none
                 }
             }
         }

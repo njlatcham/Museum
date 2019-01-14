@@ -1,31 +1,41 @@
 .header {
-  border-bottom: 1px solid #f0e9f9;
+  padding-top: 64px;
   width: 100%;
-}
-.header .header-title {
-  height: 150px;
+  height: 200px;
   overflow: hidden;
   position: relative;
 }
-.header .header-title img {
+.header img {
   width: 100%;
 }
-.header .header-title h1 {
+.header h1 {
   color: #000;
   font-size: 4rem;
   position: absolute;
-  top: 35%;
+  top: 55%;
   left: 17.5%;
 }
-.header .header-nav ul {
+.header-nav {
+  background-color: #fff;
+  width: 100%;
+}
+.header-nav ul {
   display: flex;
   list-style-type: none;
   padding: 0;
 }
-.header .header-nav ul li {
+.header-nav ul li {
   font-family: 'archivo', sans-serif;
   font-size: 1.4rem;
-  padding: 10px 10px 10px 0;
+  padding: 20px 10px 20px 0;
+  border-bottom: 1px solid #f0e9f9;
+}
+.header-nav ul li:hover {
+  border-bottom: 1px solid #a6a6a6;
+}
+.header-nav ul li a {
+  color: #a6a6a6;
+  text-decoration: none;
 }
 .admission {
   border-bottom: 1px solid #f0e9f9;
@@ -115,15 +125,18 @@
   margin: 0;
   padding: 10px 20px;
 }
-.directions .directions-info .directions-info_types .dropdown #dropdown-active {
+.directions .directions-info .directions-info_types .dropdown h3 .fa-arrow-down {
+  float: right;
+}
+.directions .directions-info .directions-info_types .dropdown .dropdown-info {
+  display: none;
+}
+.directions .directions-info .directions-info_types .dropdown .open {
   color: #000;
   display: block;
   border-left: 1px solid #f0e9f9;
   border-right: 1px solid #f0e9f9;
   padding: 10px 20px;
-}
-.directions .directions-info .directions-info_types .dropdown .dropdown-info {
-  display: none;
 }
 .accessibility {
   border-bottom: 1px solid #f0e9f9;
@@ -181,15 +194,18 @@
   margin: 0;
   padding: 10px 20px;
 }
-.tours .tours-info .tours-info_types .dropdown #dropdown-active {
+.tours .tours-info .tours-info_types .dropdown h3 .fa-arrow-down {
+  float: right;
+}
+.tours .tours-info .tours-info_types .dropdown .dropdown-info {
+  display: none;
+}
+.tours .tours-info .tours-info_types .dropdown .open {
   color: #000;
   display: block;
   border-left: 1px solid #f0e9f9;
   border-right: 1px solid #f0e9f9;
   padding: 10px 20px;
-}
-.tours .tours-info .tours-info_types .dropdown .dropdown-info {
-  display: none;
 }
 .amenities {
   border-bottom: 1px solid #f0e9f9;

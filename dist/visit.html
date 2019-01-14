@@ -15,7 +15,6 @@
     <header>
         <div class="container nav">
             <div class="nav-logo">
-                <img>
                 <h3>Art & History</h3>
                 <h2>Museum</h2>
             </div>
@@ -31,7 +30,7 @@
                         <a href="/visit.html">Visit Us</a>
                     </li>
                     <li>
-                        <a href="/index.html">About</a>
+                        <a href="/about.html">About</a>
                     </li>
                     <li>
                         <a href="/index.html">Collections</a>
@@ -46,23 +45,33 @@
 
     <main>
         <section class="header">
-            <div class="header-title">
-                <img src="/jon-tyson-65992-unsplash.6bc9367e.jpg">
-                <h1 class="container">Plan your Visit</h1>
-            </div>
-            <nav class="container header-nav">
-                <ul>
-                    <li>Hours & Admission</li>
-                    <li>Directions</li>
-                    <li>Accessibility</li>
-                    <li>Group Tours</li>
-                    <li>Rental</li>
-                    <li>Other Facilities</li>
+            <img src="/jon-tyson-65992-unsplash.6bc9367e.jpg">
+            <h1 class="container">Plan your Visit</h1>
+        </section>
+
+        <section>
+            <nav class="header-nav">
+                <ul class="container">
+                    <li>
+                        <a href="#admission">Hours & Admission</a>
+                    </li>
+                    <li>
+                        <a href="#directions">Directions</a>
+                    </li>
+                    <li>
+                        <a href="#accessibility">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="#tours">Group Tours</a>
+                    </li>
+                    <li>
+                        <a href="#amenities">Amenities & Other Facilities</a>
+                    </li>
                 </ul>
             </nav>
         </section>
 
-        <section class="admission container">
+        <section id="admission" class="admission container">
             <div class="admission-title">
                 <h3>Hours and Admission</h3>
             </div>
@@ -87,7 +96,7 @@
             </div>
         </section>
 
-        <section class="directions container">
+        <section id="directions" class="directions container">
             <div class="directions-title">
                 <h3>Directions</h3>
                 <img>
@@ -97,9 +106,10 @@
                 Snow Road neighbourhood, just steps from the Sachan Garden 
                 and 2 minutes from downtown London</p>
                 <div class="directions-info_types">
-                    <div onClick="{this.handleClick}" class="directions-public dropdown">
-                        <h3>By Public Transportation</h3>
-                        <p id="dropdown-active" class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
+
+                    <div class="directions-public dropdown">
+                        <h3 class="dropdown-title">By Public Transportation<i class="fas fa-arrow-down"></i></h3>
+                        <p class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
                         alias labore impedit fugit facere repudiandae sapiente, 
@@ -111,7 +121,7 @@
                         sapiente, commodi!</p>
                     </div>
                     <div class="directions-bicycle dropdown">
-                        <h3>By Bicycle</h3>
+                        <h3 class="dropdown-title">By Bicycle<i class="fas fa-arrow-down"></i></h3>
                         <p class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
@@ -124,7 +134,7 @@
                         sapiente, commodi!</p>
                     </div>
                     <div class="directions-car dropdown">
-                        <h3>By Car</h3>
+                        <h3 class="dropdown-title">By Car<i class="fas fa-arrow-down"></i></h3>
                         <p class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
@@ -136,11 +146,12 @@
                         cupiditate alias labore impedit fugit facere repudiandae 
                         sapiente, commodi!</p>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <section class="accessibility container">
+        <section id="accessibility" class="accessibility container">
             <div class="accessibility-title">
                 <h3>Accessibility</h3>
             </div>
@@ -166,7 +177,7 @@
             </div>
         </section>
 
-        <section class="tours container">
+        <section id="tours" class="tours container">
             <div class="tours-title">
                 <h3>Group Tours</h3>
             </div>
@@ -178,7 +189,7 @@
                 commodi!</p>
                 <div class="tours-info_types">
                     <div class="tours-student dropdown">
-                        <h3>Student Guide Tours</h3>
+                        <h3>Student Guide Tours<i class="fas fa-arrow-down"></i></h3>
                         <p id="dropdown-active" class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
@@ -186,7 +197,7 @@
                         commodi!</p>
                     </div>
                     <div class="tours-group dropdown">
-                        <h3>Group Visits</h3>
+                        <h3>Group Visits<i class="fas fa-arrow-down"></i></h3>
                         <p class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
@@ -194,7 +205,7 @@
                         commodi!</p>
                     </div>
                     <div class="tours-family dropdown">
-                        <h3>Family Visits</h3>
+                        <h3>Family Visits<i class="fas fa-arrow-down"></i></h3>
                         <p class="dropdown-info">Lorem ipsum dolor sit amet, consectetur adipisicing 
                         elit. Illo, velit, quam. Quasi aspernatur perferendis 
                         sunt, facere placeat optio itaque et. Atque cupiditate 
@@ -205,7 +216,7 @@
             </div>
         </section>
 
-        <section class="amenities container">
+        <section id="amenities" class="amenities container">
             <div class="amenities-title">
                 <h3>Amenities and Other Facilities</h3>
             </div>
@@ -240,5 +251,16 @@
             </div>
         </div>
     </footer>
+    <script>var titles = document.querySelectorAll('.dropdown');
+
+function toggleOpen() {
+  this.childNodes[3].classList.toggle('open');
+  this.childNodes[1].childNodes[1].setAttribute('style', 'transform: rotate(180deg); transition: all 0.5s ease;');
+}
+
+titles.forEach(function (title) {
+  return title.addEventListener('click', toggleOpen);
+});</script>
+    <script defer="" src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
 </body>
 </html>

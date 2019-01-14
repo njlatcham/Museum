@@ -6,39 +6,47 @@ html {
   width: 65%;
   margin: 0 auto;
 }
-.nav {
+header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 3;
+  width: 100%;
+  border-bottom: 1px solid #f0e9f9;
+}
+header .nav {
   display: flex;
   justify-content: space-between;
+  width: 65%;
 }
-.nav .nav-logo {
+header .nav .nav-logo {
   font-family: 'Archivo', sans-serif;
-  margin: 10px 0;
+  padding: 2%;
 }
-.nav .nav-logo h3,
-.nav .nav-logo h2 {
+header .nav .nav-logo h3,
+header .nav .nav-logo h2 {
   padding: 0;
   margin: 0;
 }
-.nav .nav-logo h2 {
+header .nav .nav-logo h2 {
   font-size: 1.7rem;
 }
-.nav .nav-nav {
+header .nav .nav-nav {
   font-size: 1.4rem;
   font-family: 'Archivo', sans-serif;
-  margin: 10px 0;
+  padding: 2%;
 }
-.nav .nav-nav ul {
+header .nav .nav-nav ul {
   display: flex;
 }
-.nav .nav-nav ul li {
+header .nav .nav-nav ul li {
   list-style: none;
   padding-left: 10px;
 }
-.nav .nav-nav ul li a {
+header .nav .nav-nav ul li a {
   color: #000;
   text-decoration: none;
 }
-.nav .nav-nav ul li a:hover {
+header .nav .nav-nav ul li a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -574,6 +582,64 @@ html {
     position: absolute;
     top: 175px;
     width: 80%;
+  }
+  .experiments .experiments-articles .article .article-info p {
+    color: #a6a6a6;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .experiments .experiments-articles .article .article-info h4 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .experiments .experiments-articles .article .article-info a {
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+  }
+}
+@media (max-width: 910px) {
+  .experiments {
+    margin-bottom: 30px;
+  }
+  .experiments .experiments-title {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .experiments .experiments-title p {
+    color: #a6a6a6;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  .experiments .experiments-title h3 {
+    font-size: 3rem;
+  }
+  .experiments .experiments-articles {
+    display: flex;
+  }
+  .experiments .experiments-articles .article {
+    flex: 1;
+    height: 400px;
+    position: relative;
+  }
+  .experiments .experiments-articles .article:first-child {
+    margin-right: 20px;
+  }
+  .experiments .experiments-articles .article:nth-child(2) {
+    margin-right: 20px;
+  }
+  .experiments .experiments-articles .article img {
+    position: absolute;
+    width: 100%;
+  }
+  .experiments .experiments-articles .article .article-info {
+    background-color: #fff;
+    position: absolute;
+    top: 110px;
+    width: 90%;
   }
   .experiments .experiments-articles .article .article-info p {
     color: #a6a6a6;
