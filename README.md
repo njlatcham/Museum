@@ -3,10 +3,10 @@
 Created from a Theme Forest template, a small website still in production to showcase my skills in HTML, Stylus and JavaScript.
 
 ## Final Product
-!["Screenshot of Home Page"]('https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/homePage.png')
-!["Screenshot of Home Page"]('https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/exhibitions.png')
-!["Screenshot of Home Page"]('https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/collections.png')
-!["Screenshot of Home Page"]('https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/experiments.png')
+!["Screenshot of Home Page"](https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/homePage.png)
+!["Screenshot of Home Page"](https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/exhibitions.png)
+!["Screenshot of Home Page"](https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/collections.png)
+!["Screenshot of Home Page"](https://github.com/njlatcham/Museum/blob/master/src/res/screenshots/experiments.png)
 
 ## Dependencies
 Languages: HTML, Stylus, and JavaScript
